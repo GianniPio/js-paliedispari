@@ -15,4 +15,33 @@
     // 3.1 Altrimenti non sono palindrome
 
 
+const word = prompt("Inserisci una parola!");
 
+parolaPalindroma(word);
+
+console.log(word);
+
+
+
+// funzioni
+
+function parolaPalindroma (parola) {
+
+let letterWord = parola.split('');
+
+letterWord = letterWord.reverse();
+
+let wordReverse = letterWord.join('');
+
+let risultato;
+
+if (parola == wordReverse) {
+    
+    risultato = console.log("La parola è palindroma");
+} else {
+    risultato = console.log("La parola non è palindroma");
+}
+
+return risultato;
+
+}

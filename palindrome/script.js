@@ -6,8 +6,8 @@
 
 // 2 Controllare che la parola sia palindroma
     // 2.1 Scomporre la parola in lettere -> split
-    // 2.2 Invertire le lettere
-    // 2.3 Ricomporre la parola
+    // 2.2 Invertire le lettere -> reverse
+    // 2.3 Ricomporre la parola -> join
     // 2.4 Controllare che le parole siano uguali -> if
 
 // 3 Dare l'output
